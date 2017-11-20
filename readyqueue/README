@@ -1,0 +1,25 @@
+# readyqueue
+
+AUTHORS 
+// Matthew Moreno
+// Thavy Thach
+
+DESCRIPTION:
+
+	Background:
+	Queues are essential data strctures for operating systems and Xinu is no exception. The ready queue is used to order processes for CPU scheduling, the sleep queue holds a number of processes that are sleeping and waiting on the timer, other wait queues hold processes that are waiting for I/O to return, and each semaphore has a queue of processes waiting on it.
+
+	Program:
+	Ready Queue will run five processes using cooperative scheduling meaning It will run process 1 and print, then process 2 then print, then process 3 and so forth. They will alternate/share because as we know a ready queue is "used to order processes for CPU scheduling".
+
+
+RUN PROGRAM:
+
+	[0] Start up develop-end
+	[1] Navigate to compile/
+	[2] make clean
+	[3] make
+	[4] ./upload.sh
+	[5] sudo minicom
+	[6] Start up back-end
+	[7] Read screen!
